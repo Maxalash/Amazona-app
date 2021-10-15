@@ -64,7 +64,7 @@ export default function Product(props) {
             ) : (
                 <span>{numReviews + ' reviews'}</span>
             )} */}
-            <span>{numReviews + 'reviews'}</span>
+            <span>{numReviews + ' reviews'}</span>
             </div>
     )
 }
