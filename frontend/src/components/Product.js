@@ -7,9 +7,9 @@ export default function Product(props) {
     return (
         <div key={product._id} className="card">
             <a href={`/product/${product._id}`}>
-                <img class="medium" src={product.image} alt={product.name} />
+                <img className="medium" src={product.image} alt={product.name} />
               </a>
-              <div class="card-body">
+              <div className="card-body">
               <a href={`/product/${product._id}`}>
                   <h2>{product.name}</h2>
                 </a>
@@ -17,7 +17,7 @@ export default function Product(props) {
                     rating={product.rating}
                     numReviews={product.numReviews}
                 ></Rating>
-                <div class="price">${product.price}</div>
+                <div className="price">${product.price}</div>
               </div>
         </div>
     )
